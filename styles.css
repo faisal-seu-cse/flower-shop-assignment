@@ -78,7 +78,7 @@ header {
 /* DEALS */
 
 .hot-deal {
-  width: 1922px;
+  width: vw;
   height: 620px;
   background: rgba(229, 84, 115, 0.05);
 }
@@ -94,4 +94,17 @@ header {
   color: #272727;
   font-size: 40px;
   font-weight: 800;
+}
+
+/* SOCIAL */
+.social{
+  text-align: center;
+}
+
+.social-showcase {
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  justify-content: center;
+  margin: 70px 0;
 }
